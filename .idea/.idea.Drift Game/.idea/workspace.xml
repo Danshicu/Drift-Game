@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9912d41-6d72-4da8-a113-83f98f3b216b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Car/materialscar/Brake.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Car/materialscar/Brake.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Car/materialscar/BrakeDisk.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Car/materialscar/BrakeDisk.001.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Car/materialscar/Exhaust.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Car/materialscar/Exhaust.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Car/materialscar/Material.002.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Car/materialscar/Material.002.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Car/materialscar/RIM1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Car/materialscar/RIM1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Car/materialscar/RIMinterior.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Car/materialscar/RIMinterior.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/road.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/road.fbx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AiCarController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AiCarController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BrakingZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BrakingZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarInput.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CarInput.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaypointContainer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaypointContainer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +107,7 @@
       <workItem from="1721125188585" duration="3052000" />
       <workItem from="1721138929816" duration="849000" />
       <workItem from="1721254420717" duration="919000" />
+      <workItem from="1721256398838" duration="656000" />
     </task>
     <servers />
   </component>

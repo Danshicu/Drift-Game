@@ -15,10 +15,6 @@ public class PlayerCarInput : MonoBehaviour
     private float handBrakeInput;
     private CarController carController;
     public float dampenSpeed=1;
-    public Mybutton gasPedal;
-    public Mybutton brakePedal;
-    public Mybutton leftButton;
-    public Mybutton rightButton;
     public AnimationCurve steeringCurve;
 
     // Start is called before the first frame update
@@ -39,33 +35,13 @@ public class PlayerCarInput : MonoBehaviour
         input.Car.Handbrake.performed += ApplyHandbrake;
         input.Car.Handbrake.canceled += ReleaseHandbrake;
     }
-    private void HandleUI()
-    {
-        if (gasPedal!=null&& gasPedal.isPressed)
-        {
-            throttleInput += gasPedal.dampenPress;
-        }
-        if (brakePedal != null&&brakePedal.isPressed)
-        {
-            throttleInput -= brakePedal.dampenPress;
-        }
-        if (rightButton != null && rightButton.isPressed)
-        {
-            steeringInput += rightButton.dampenPress;
-        }
-        if (leftButton != null && leftButton.isPressed)
-        {
-            steeringInput -= leftButton.dampenPress;
-        }
-    }
+
     private void Update()
     {
-        HandleUI();
         throttleDamp = DampenedInput(throttleInput, throttleDamp);
         steeringDamp = DampenedInput(steeringInput, steeringDamp);
         clutchDamp = DampenedInput(clutchInput, clutchDamp);
         carController.SetInput(throttleDamp, steeringDamp * steeringCurve.Evaluate(carController.speed), clutchDamp, handBrakeInput);
-
     }
 
     private void OnDisable()
