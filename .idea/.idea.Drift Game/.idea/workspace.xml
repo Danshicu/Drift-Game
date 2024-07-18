@@ -6,16 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d9912d41-6d72-4da8-a113-83f98f3b216b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AiCarController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AiCarController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrakingZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BrakingZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CarInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CarInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CarInput.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CarInput.inputactions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WaypointContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WaypointContainer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Garage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Garage.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +21,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DriftSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCarInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ConnectToServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CreateAndJoinRooms.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fb646c144d1d41f3abcf4aae8b4a74583e00/50/6ebe9038/WheelCollider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -108,6 +103,7 @@
       <workItem from="1721138929816" duration="849000" />
       <workItem from="1721254420717" duration="919000" />
       <workItem from="1721256398838" duration="656000" />
+      <workItem from="1721293859783" duration="3107000" />
     </task>
     <servers />
   </component>

@@ -6402,7 +6402,7 @@ GameObject:
   - component: {fileID: 7684756620898189971}
   - component: {fileID: 7684756620898189978}
   m_Layer: 0
-  m_Name: Mx6
+  m_Name: Mx6_multi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
