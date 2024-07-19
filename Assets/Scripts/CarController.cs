@@ -60,7 +60,7 @@ public class CarController : MonoBehaviour
     public Transform COM;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         playerRB = gameObject.GetComponent<Rigidbody>();
         if(COM)
