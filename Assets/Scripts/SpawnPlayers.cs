@@ -14,6 +14,7 @@ public class SpawnPlayers : MonoBehaviour
 
     public CarControllerMultiplayer SpawnPlayer()
     {
+        Debug.Log("Spawned");
         var place = spawnPositions[Random.Range(0, spawnPositions.Count)];
         spawnPositions.Remove(place);
         var player = PhotonNetwork.Instantiate(playerPrefab.name, place.position, Quaternion.identity);

@@ -10,8 +10,7 @@ public class DriftManager : MonoBehaviour
     public TMP_Text totalScoreText;
     public TMP_Text currentScoreText;
     public TMP_Text factorText;
-    public TMP_Text driftAngleText;
-
+    
     private float speed=0;
     private float driftAngle=0;
     private float driftFactor=1;
@@ -109,7 +108,6 @@ public class DriftManager : MonoBehaviour
         totalScoreText.text = "Total: " + (totalScore).ToString("###,###,000");
         factorText.text = driftFactor.ToString("###,###,##0.0")+"X";
         currentScoreText.text=currentScore.ToString("###,###,000");
-        driftAngleText.text=driftAngle.ToString("###,##0") + "°";
     }
 }
 

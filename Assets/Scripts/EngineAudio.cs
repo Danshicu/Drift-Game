@@ -68,6 +68,7 @@ public class EngineAudio : MonoBehaviour
     }
     public IEnumerator StartEngine()
     {
+        if (!carController.enabled) yield return null;
         startingSound.Play();
         carController.isEngineRunning = 1;
         yield return new WaitForSeconds(0.6f);

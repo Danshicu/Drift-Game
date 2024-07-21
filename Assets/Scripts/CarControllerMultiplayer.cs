@@ -8,9 +8,12 @@ using TMPro;
 [RequireComponent(typeof(CarController))]
 public class CarControllerMultiplayer : MonoBehaviour
 {
+    [SerializeField] private AudioListener _listener;
+    [SerializeField] private GameObject _localCanvas;
+    [SerializeField] private GameObject _camera;
     private PhotonView view;
-    private CarController carController;
-    
+    public CarController carController { get; private set; }
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -31,6 +34,24 @@ public class CarControllerMultiplayer : MonoBehaviour
             carController.enabled = value;
             _enabled = value;
         } 
+    }
+
+    public bool CameraEnabled
+    {
+        get => _camera.activeSelf;
+        set => _camera.SetActive(value);
+    }
+    
+    public bool LocalCanvasEnabled
+    {
+        get => _localCanvas.activeSelf;
+        set => _localCanvas.SetActive(value);
+    }
+
+    public bool AudioListenerEnabled
+    {
+        get => _listener.enabled;
+        set => _listener.enabled = value;
     }
 }
 

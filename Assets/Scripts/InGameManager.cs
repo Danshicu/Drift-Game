@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using ExitGames.Client.Photon;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
@@ -7,7 +8,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class InGameManager : MonoBehaviourPunCallbacks
+public class InGameManager : MonoBehaviourPunCallbacks, IOnEventCallback
 {
     [SerializeField] private SpawnPlayers _spawner;
     [SerializeField] private TextMeshProUGUI _textPrefab;
@@ -15,6 +16,8 @@ public class InGameManager : MonoBehaviourPunCallbacks
     [SerializeField] private Transform _namesParent;
     [SerializeField] private GameObject _startGameButton;
     private List<CarControllerMultiplayer> _players = new List<CarControllerMultiplayer>();
+
+    private CarControllerMultiplayer _myPlayer;
     
     // Start is called before the first frame update 
     void Start()
@@ -24,8 +27,9 @@ public class InGameManager : MonoBehaviourPunCallbacks
             if (player.Value == PhotonNetwork.LocalPlayer)
             {
                 RefreshPlayers();
-                var controller = _spawner.SpawnPlayer();
-                _players.Add(controller);
+                _myPlayer = _spawner.SpawnPlayer();
+                _players.Add(_myPlayer);
+                _myPlayer.CameraEnabled = true;
             }
         }
     }
@@ -38,17 +42,22 @@ public class InGameManager : MonoBehaviourPunCallbacks
 
     public void StartGame()
     {
-        foreach (var player in _players)
-        {
-            player.Enabled = true;
-        }
+        RaiseEventOptions receive = new RaiseEventOptions() { Receivers = ReceiverGroup.All };
+        SendOptions send = new SendOptions() { Reliability = true };
+        PhotonNetwork.RaiseEvent(100, true, receive, send);
+        
+        _startGameButton.SetActive(false);
+   }
 
-        if (PhotonNetwork.IsMasterClient)
-        {
-            _startGameButton.SetActive(false);
-        }
+    public void StartGameHandle()
+    {
+        _myPlayer.Enabled = true;
         _startGameButton.transform.parent.gameObject.SetActive(false);
+        _myPlayer.LocalCanvasEnabled = true;
+        _myPlayer.AudioListenerEnabled = true;
     }
+    
+    
 
     public void LeaveGame()
     {
@@ -57,6 +66,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
     
     public override void OnLeftRoom()
     {
+        PhotonNetwork.Destroy(_myPlayer.gameObject);
         SceneManager.LoadScene("Lobby");
     }
 
@@ -101,5 +111,15 @@ public class InGameManager : MonoBehaviourPunCallbacks
             //if(otherPlayer.)
         }
     }
-    
+
+
+    public void OnEvent(EventData photonEvent)
+    {
+        switch (photonEvent.Code)
+        {
+            case 100:
+                StartGameHandle();
+                break;
+        }
+    }
 }

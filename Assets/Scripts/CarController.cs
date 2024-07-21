@@ -34,9 +34,6 @@ public class CarController : MonoBehaviour
     public float RPM;
     public float redLine;
     public float idleRPM;
-    public TMP_Text rpmText;
-    public TMP_Text gearText;
-    public Transform rpmNeedle;
     public float minNeedleRotation;
     public float maxNeedleRotation;
     public int currentGear;
@@ -97,12 +94,6 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
-        if(rpmNeedle)
-        rpmNeedle.rotation = Quaternion.Euler(0, 0, Mathf.Lerp(minNeedleRotation, maxNeedleRotation, RPM / (redLine*1.1f)));
-        if(rpmText)
-        rpmText.text = RPM.ToString("0,000")+"rpm";
-        if(gearText)
-        gearText.text = (gearState==GearState.Neutral)?"N":(currentGear + 1).ToString();
         speed = colliders.RRWheel.rpm*colliders.RRWheel.radius*2f*Mathf.PI /10f;
         speedClamped = Mathf.Lerp(speedClamped, speed, Time.deltaTime);
         ApplyMotor();
@@ -160,26 +151,6 @@ public class CarController : MonoBehaviour
 
     }
 
-
-    //    /*
-    //    old tutorial code
-    //    if (slipAngle < 120f) {
-    //        if (gasInput < 0)
-    //        {
-    //            brakeInput = Mathf.Abs( gasInput);
-    //            gasInput = 0;
-    //        }
-    //        else
-    //        {
-    //            brakeInput = 0;
-    //        }
-    //    }
-    //    else
-    //    {
-    //        brakeInput = 0;
-    //    }*/
-
-    //}
     void ApplyBrake()
     {
         colliders.FRWheel.brakeTorque = brakeInput * brakePower* 0.7f ;

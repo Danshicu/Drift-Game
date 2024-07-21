@@ -6,115 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="d9912d41-6d72-4da8-a113-83f98f3b216b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConnectToServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ConnectToServer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CreateAndJoinRooms.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CreateAndJoinRooms.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/cop muscle/materials/cop muscle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/cop muscle/materials/cop muscle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/cop sedan/materials/cop sedan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/cop sedan/materials/cop sedan.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type a/materials/muscle type a color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type a/materials/muscle type a color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type a/materials/muscle type a color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type a/materials/muscle type a color 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type a/materials/muscle type a color 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type a/materials/muscle type a color 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type b/materials/muscle type a color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type b/materials/muscle type a color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type b/materials/muscle type a color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type b/materials/muscle type a color 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type b/materials/muscle type a color 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type b/materials/muscle type a color 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type c/materials/muscle type c color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type c/materials/muscle type c color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type c/materials/muscle type c color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type c/materials/muscle type c color 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type c/materials/muscle type c color 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/muscle type c/materials/muscle type c color 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/pickup/materials/pickup color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/pickup/materials/pickup color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/pickup/materials/pickup color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/pickup/materials/pickup color 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/pickup/materials/pickup color 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/pickup/materials/pickup color 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sedan/materials/sedan color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sedan/materials/sedan color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sedan/materials/sedan color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sedan/materials/sedan color 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sedan/materials/sedan color 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sedan/materials/sedan color 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type a/materials/sports type a color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type a/materials/sports type a color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type a/materials/sports type a color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type a/materials/sports type a color 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type a/materials/sports type a color 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type a/materials/sports type a color 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type b/materials/sports type b color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type b/materials/sports type b color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type b/materials/sports type b color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type b/materials/sports type b color 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type b/materials/sports type b color 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/sports type b/materials/sports type b color 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/taxi muscle/materials/taxi muscle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/taxi muscle/materials/taxi muscle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/taxi sedan/materials/taxi sedan.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/taxi sedan/materials/taxi sedan.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/wheels/materials/wheel classic.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/wheels/materials/wheel classic.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/wheels/materials/wheel off road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/wheels/materials/wheel off road.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/wheels/materials/wheel sports.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DavidJalbert/TinyLowPolyCars/components/wheels/materials/wheel sports.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Black.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Delivery.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Delivery.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Police.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Police.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Taxi.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Taxi.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/Yellow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/ambulance.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low poly city vehicle pack/Material/ambulance.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/pors/materials/brake2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/pors/materials/brake2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/WhiteSmooth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/WhiteSmooth.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/Asteroid.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/Asteroid.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/FlyerAsteroid1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/FlyerAsteroid1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipGlow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipGlow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipHull.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipHull.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Black.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/LightGreen.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/LightGreen.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Orange.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Orange.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Yellow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/_defaultMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/_defaultMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/bark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/bark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/road.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/road.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/tankco.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/tankco.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/wall.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/white.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/white.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/11 - Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/11 - Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default22662.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default22662.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default54.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/13 - Default54.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/20 - Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/20 - Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/22 - Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/22 - Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/24 - Default.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/24 - Default.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/No Name.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/car.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/car.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/leaves_palm_243.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/leaves_palm_243.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/roof.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/roof.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/tank.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/tank.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/windows_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/windows_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/Red Beam.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/Red Beam.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureGreen12x.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureGreen12x.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureRed12x.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureRed12x.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureYellow12x.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Materials/UnitTextureYellow12x.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/EyesMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/EyesMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SkinMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SkinMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SuitMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SuitMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TeethMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TeethMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TongueMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/TongueMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Gradient.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Gradient.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/PlayerDiamond.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/PlayerDiamond.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Robot_Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Robot_Color.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleTexture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleTexture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue12x.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureBlue12x.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureRed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitTextureRed.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mx6_garage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Mx6_garage.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mx6_garage.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Mx6_garage.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Mx6_multi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Mx6_multi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mx6_multi.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Mx6_multi.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mx6_solo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Mx6_solo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mx6_solo.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Mx6_solo.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameSceneMultiplayer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameSceneMultiplayer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Garage.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Garage.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarControllerMultiplayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarControllerMultiplayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DriftManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DriftManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EngineAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EngineAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InGameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnPlayers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnPlayers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,10 +93,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1608">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="1608" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -216,7 +119,10 @@
       <workItem from="1721293859783" duration="3107000" />
       <workItem from="1721313984080" duration="4007000" />
       <workItem from="1721333891507" duration="6763000" />
-      <workItem from="1721399197990" duration="5342000" />
+      <workItem from="1721399197990" duration="8394000" />
+      <workItem from="1721464923957" duration="151000" />
+      <workItem from="1721465100599" duration="3473000" />
+      <workItem from="1721521813286" duration="280000" />
     </task>
     <servers />
   </component>
@@ -227,5 +133,37 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/InGameManager.cs</url>
+          <line>23</line>
+          <properties documentPath="A:\UnityProjects\Drift Game\Assets\Scripts\InGameManager.cs" initialLine="22" containingFunctionPresentation="Method 'Start'">
+            <startOffsets>
+              <option value="811" />
+            </startOffsets>
+            <endOffsets>
+              <option value="812" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/InGameManager.cs</url>
+          <line>30</line>
+          <properties documentPath="A:\UnityProjects\Drift Game\Assets\Scripts\InGameManager.cs" initialLine="30" containingFunctionPresentation="Method 'Start'">
+            <startOffsets>
+              <option value="1064" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1088" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

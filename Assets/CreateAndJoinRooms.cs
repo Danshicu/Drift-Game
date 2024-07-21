@@ -30,6 +30,11 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks
     public void GoBack()
     {
         PhotonNetwork.LeaveLobby();
-        SceneManager.LoadScene("Garage");
+    }
+
+    public override void OnLeftLobby()
+    {
+        PhotonNetwork.Disconnect();
+        PhotonNetwork.LoadLevel("Garage");
     }
 }
