@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Timers;
 using ExitGames.Client.Photon;
 using Photon.Pun;
 using Photon.Realtime;
@@ -7,6 +8,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Hashtable = System.Collections.Hashtable;
 
 public class InGameManager : MonoBehaviourPunCallbacks, IOnEventCallback
 {
@@ -16,6 +18,7 @@ public class InGameManager : MonoBehaviourPunCallbacks, IOnEventCallback
     [SerializeField] private Transform _namesParent;
     [SerializeField] private GameObject _startGameButton;
     private List<CarControllerMultiplayer> _players = new List<CarControllerMultiplayer>();
+    [SerializeField] private GameTimer _timer;
 
     private CarControllerMultiplayer _myPlayer;
     
@@ -27,7 +30,13 @@ public class InGameManager : MonoBehaviourPunCallbacks, IOnEventCallback
             if (player.Value == PhotonNetwork.LocalPlayer)
             {
                 RefreshPlayers();
-                _myPlayer = _spawner.SpawnPlayer();
+                ExitGames.Client.Photon.Hashtable hashProperties = new ExitGames.Client.Photon.Hashtable();
+                foreach (var pair in player.Value.CustomProperties)
+                {
+                    hashProperties.Add(pair.Key, pair.Value);
+                }
+                _myPlayer = _spawner.SpawnPlayer(hashProperties, PhotonNetwork.CurrentRoom.PlayerCount-1);
+                _myPlayer.View.RPC("SetCarPartsRPC", RpcTarget.All, hashProperties);
                 _players.Add(_myPlayer);
                 _myPlayer.CameraEnabled = true;
             }
@@ -44,10 +53,21 @@ public class InGameManager : MonoBehaviourPunCallbacks, IOnEventCallback
     {
         RaiseEventOptions receive = new RaiseEventOptions() { Receivers = ReceiverGroup.All };
         SendOptions send = new SendOptions() { Reliability = true };
+        PhotonNetwork.CurrentRoom.IsOpen = false;
+        _timer.StartCounting();
         PhotonNetwork.RaiseEvent(100, true, receive, send);
+
+        _timer.OnTimerEnded += EndGame;
         
         _startGameButton.SetActive(false);
    }
+
+    private void EndGame()
+    {
+        RaiseEventOptions receive = new RaiseEventOptions() { Receivers = ReceiverGroup.All };
+        SendOptions send = new SendOptions() { Reliability = true };
+        PhotonNetwork.RaiseEvent(199, true, receive, send);
+    }
 
     public void StartGameHandle()
     {
@@ -115,11 +135,23 @@ public class InGameManager : MonoBehaviourPunCallbacks, IOnEventCallback
 
     public void OnEvent(EventData photonEvent)
     {
+        //var i = (int)photonEvent.CustomData;
         switch (photonEvent.Code)
         {
             case 100:
                 StartGameHandle();
                 break;
+            case 199:
+                GameEndHandle();
+                break;
+            
         }
     }
+
+    private void GameEndHandle()
+    {
+        _myPlayer.Enabled = false;
+        _myPlayer.ShowEndCanvas();
+    }
+    
 }

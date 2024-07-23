@@ -5,17 +5,10 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform player;
-    private Rigidbody playerRB;
     public Vector3 Offset;
     public Vector3 Offset2;
-    public float speed;
     public Vector3 velocity;
     public float smoothTime;
-    // Start is called before the first frame update
-    void Start()
-    {
-        playerRB = player.GetComponent<Rigidbody>();
-    }
 
     // Update is called once per frame
     void FixedUpdate()

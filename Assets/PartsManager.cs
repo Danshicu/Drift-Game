@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
 public class PartsManager : MonoBehaviour
@@ -32,7 +33,7 @@ public class PartsManager : MonoBehaviour
         PartType tempPart = GetPartType(partName);
         if (tempPart == null) return;
         tempPart.selected = select;
-        PlayerPrefs.SetInt("Parts1" + tempPart.partName, select);
+        PlayerPrefs.SetInt(tempPart.partName, select);
         for (int i = 0; i < tempPart.parts.Length; i++)
         {
             foreach (GameObject gb in tempPart.parts[i].partsObjects)
@@ -52,7 +53,7 @@ public class PartsManager : MonoBehaviour
     public void SetPartFromId(PartType partType, int select)
     {
         partType.selected = select;
-        PlayerPrefs.SetInt("Parts1" + partType.partName, select);
+        PlayerPrefs.SetInt(partType.partName, select);
         for(int i=0; i<partType.parts.Length; i++)
         {
             foreach(GameObject gb in partType.parts[i].partsObjects)
@@ -72,10 +73,25 @@ public class PartsManager : MonoBehaviour
 
     private void SetAllParts()
     {
+        ExitGames.Client.Photon.Hashtable hash = new ExitGames.Client.Photon.Hashtable();
         foreach(PartType   pt in partTypes)
         {
-            int selectedItem = PlayerPrefs.GetInt("Parts1" + pt.partName, 0);
+            var partName = pt.partName;
+            int selectedItem = PlayerPrefs.GetInt(partName, 0);
             SetPartFromId(pt, selectedItem);
+            hash.Add(partName, selectedItem);
+        }
+        hash.Add("ChosenCar", PlayerPrefs.GetInt("ChosenCar"));
+
+        PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
+    }
+
+    public void SetPartsFromHashtable(ExitGames.Client.Photon.Hashtable hash)
+    {
+        //hash.Remove("ChosenCar")
+        foreach (var row in hash)
+        {
+            SetPartFromName((string)row.Key, (int)row.Value);
         }
     }
 

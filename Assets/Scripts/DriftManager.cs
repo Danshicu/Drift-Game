@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 public class DriftManager : MonoBehaviour
 {
+    [SerializeField] private float _pointsToCoinsMultiplayer = 0.1f;
+    
     public Rigidbody playerRB;
     public TMP_Text totalScoreText;
     public TMP_Text currentScoreText;
@@ -15,7 +17,7 @@ public class DriftManager : MonoBehaviour
     private float driftAngle=0;
     private float driftFactor=1;
     private float currentScore;
-    private float totalScore;
+    public float TotalScore { get; private set; }
 
     private bool isDrifting = false;
 
@@ -95,7 +97,7 @@ public class DriftManager : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         currentScoreText.color = nearStopColor;
         yield return new WaitForSeconds(driftingDelay * 4f);
-        totalScore += currentScore;
+        TotalScore += currentScore;
         isDrifting = false;
         currentScoreText.color = driftEndedColor;
         yield return new WaitForSeconds(0.5f);
@@ -105,10 +107,16 @@ public class DriftManager : MonoBehaviour
 
     void ManageUI()
     {
-        totalScoreText.text = "Total: " + (totalScore).ToString("###,###,000");
+        totalScoreText.text = "Drift points: " + (TotalScore).ToString("###,###,000");
         factorText.text = driftFactor.ToString("###,###,##0.0")+"X";
         currentScoreText.text=currentScore.ToString("###,###,000");
     }
+
+    public int GetMoneyFromPoints()
+    {
+        return (int)(TotalScore * _pointsToCoinsMultiplayer);
+    }
+    
 }
 
 
