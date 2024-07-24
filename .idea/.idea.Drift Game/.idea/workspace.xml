@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9912d41-6d72-4da8-a113-83f98f3b216b" name="Changes" comment="" />
+    <list default="true" id="d9912d41-6d72-4da8-a113-83f98f3b216b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drift Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarInput.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CarInput.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarShopManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarShopManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ConnectToServer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ConnectToServer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CreateAndJoinRooms.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CreateAndJoinRooms.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Credits.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GarageCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GarageCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ice.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ice.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PartsGear.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PartsGear.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PartsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PartsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PartsManagerUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PartsManagerUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerCarInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerCarInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mx6_multi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Mx6_multi.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CarShop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CarShop.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameSceneMultiplayer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameSceneMultiplayer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarInput.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +45,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CarShopManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ConnectToServer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CreateAndJoinRooms.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuitHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GarageHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InGameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -93,10 +122,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4176">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="4176" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -132,6 +161,7 @@
       <workItem from="1721675526791" duration="5729000" />
       <workItem from="1721682128387" duration="1000" />
       <workItem from="1721724953879" duration="4402000" />
+      <workItem from="1721805465763" duration="1164000" />
     </task>
     <servers />
   </component>
@@ -146,32 +176,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/CarShopManager.cs</url>
-          <line>17</line>
-          <properties documentPath="A:\UnityProjects\Drift Game\Assets\CarShopManager.cs" initialLine="14" containingFunctionPresentation="Method 'SwitchCar'">
-            <startOffsets>
-              <option value="427" />
-            </startOffsets>
-            <endOffsets>
-              <option value="463" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/CarShopManager.cs</url>
-          <line>19</line>
-          <properties documentPath="A:\UnityProjects\Drift Game\Assets\CarShopManager.cs" initialLine="16" containingFunctionPresentation="Method 'SwitchCar'">
-            <startOffsets>
-              <option value="513" />
-            </startOffsets>
-            <endOffsets>
-              <option value="539" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/CarControllerMultiplayer.cs</url>
           <line>80</line>
@@ -262,58 +266,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/PartsManager.cs</url>
-          <line>85</line>
-          <properties documentPath="A:\UnityProjects\Drift Game\Assets\PartsManager.cs" initialLine="85" containingFunctionPresentation="Method 'SetAllParts'">
-            <startOffsets>
-              <option value="2199" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2251" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/PartsManager.cs</url>
-          <line>83</line>
-          <properties documentPath="A:\UnityProjects\Drift Game\Assets\PartsManager.cs" initialLine="83" containingFunctionPresentation="Method 'SetAllParts'">
-            <startOffsets>
-              <option value="2134" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2189" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/PartsManager.cs</url>
-          <line>25</line>
-          <properties documentPath="A:\UnityProjects\Drift Game\Assets\PartsManager.cs" initialLine="25" containingFunctionPresentation="Method 'GetPartType'">
-            <startOffsets>
-              <option value="485" />
-            </startOffsets>
-            <endOffsets>
-              <option value="534" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/PartsManager.cs</url>
-          <line>24</line>
-          <properties documentPath="A:\UnityProjects\Drift Game\Assets\PartsManager.cs" initialLine="24" containingFunctionPresentation="Method 'GetPartType'">
-            <startOffsets>
-              <option value="475" />
-            </startOffsets>
-            <endOffsets>
-              <option value="476" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/SpawnPlayers.cs</url>
